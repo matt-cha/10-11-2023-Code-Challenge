@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los Angeles Mountains</title>
+    <style>
+        .image-container {
+            position: relative;
+        }
+
+        .image-container img {
+            
+            height: auto;
+        }
+
+        .text-overlay {
+            position: absolute;
+            top: 23.5%;
+            left: 37.5%;
+            transform: translate(-50%, -50%);
+            color: white;
+        }
+
+        .logo-image {
+            position: absolute;
+            top: 10px;
+            left: 22rem;
+            width: 30px;
+            height: auto;
+        }
+
+        .top-right-buttons {
+            position: absolute;
+            top: 20px;
+            right: 37rem;
+        }
+
+        .button {
+            display: inline-block;
+            text-decoration: underline;
+            color: white;
+            padding: 5px 10px;
+            margin: 0 10px;
+
+            cursor: pointer;
+        }
+
+        .navy {
+            color: #404F6C;
+        }
+
+        .sticky-container {
+            display: flex;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .left-div, .right-div {
+            display: flex;
+            align-items: center;
+            margin-left: 10rem;
+            margin-right: 22rem;
+        }
+
+        .logo-small {
+            padding-right: .5rem;
+        }
+
+        .overlay-image-one {
+            position: absolute;
+            top: 5%;
+            left: 20%; 
+            height: auto;
+            z-index: 1; 
+        }
+
+        .overlay-image-two {
+            position: absolute;
+            top: 9.5%; 
+            left: 26.5%;
+            height: auto;
+        }
+
+        .overlay-image-three {
+            position: absolute;
+            top: 15%;
+            left: 23.5%; 
+            height: auto;
+            z-index: 1; 
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="hero.png" alt="Los Angeles Mountains">
+        <div class="text-overlay">
+            <img src="LOSANGELES MOUNTAINS Hero.png" alt="Los Angeles Mountains" />
+        </div>
+        <img class="logo-image" src="logo.png" alt="Logo">
+        <div class="top-right-buttons">
+            <div class="button">01. HISTORY</div>
+            <div class="button">02. TEAM</div>
+        </div>
+    </div>
+    <div class="sticky-container">
+        <div class="left-div">
+            <img class="sticky-logo-image logo-small" src="Logo.png" alt="Logo">
+            <img class="sticky-logo-image" src="LOSANGELES MOUNTAINS Small.png" alt="Logo">
+        </div>
+        <div class="right-div">
+            <div class="navy button">01. HISTORY</div>
+            <div class="navy button">02. TEAM</div>
+        </div>
+    </div>
+    <div class="image-container">
+        <img class="background-image" src="peak.png" alt="peak">
+        <img class="overlay-image-one" src="01_.png" alt="01">
+        <img class="overlay-image-two" src="HISTORY.png" alt="HISTORY">
+        <img class="overlay-image-three" src="lorem.png" alt="lorem">
+    </div>
+</body>
+</html>
